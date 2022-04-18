@@ -9,3 +9,5 @@ require (
 	google.golang.org/grpc v1.45.0
 	google.golang.org/protobuf v1.28.0
 )
+
+replace source => github.com/alersaaa/resturant_data_proxy v0.0.0
