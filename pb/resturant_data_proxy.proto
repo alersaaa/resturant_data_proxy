@@ -40,9 +40,20 @@ service Dish {
   rpc GetDishes (GetDishesReq) returns (GetDishesRsp) {}
 }
 
+message User {
+  string username = 1;
+  string password = 2;
+}
+
+message OrderItem {
+  string product_name = 1;
+  int64 nums = 2;
+}
+
 // The request message containing the user's name.
 message AddOrderReq {
-  string name = 1;
+  repeated OrderItem products = 1;
+  User user = 2;
 }
 
 // The response message containing the greetings
