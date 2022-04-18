@@ -5,9 +5,9 @@ import (
 	"strconv"
 	"time"
 
-	pb "resturant_data_proxy/pb"
+	pb "github.com/alersaaa/resturant_data_proxy/pb"
 
-	"resturant_data_proxy/client"
+	"github.com/alersaaa/resturant_data_proxy/client"
 )
 
 // AddOrder 下订单
