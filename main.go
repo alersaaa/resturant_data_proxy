@@ -17,7 +17,7 @@
  */
 
 // Package main implements a server for Greeter service.
-package resturantdataproxy
+package resturant_data_proxy
 
 // import (
 // 	"context"
